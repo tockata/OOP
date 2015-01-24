@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace _03_PCCatalog
 {
-    class Computer
+    public class Computer
     {
         private string name;
         private List<Component> components;

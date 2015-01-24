@@ -2,7 +2,7 @@
 
 namespace _02_LaptopShop
 {
-    class LaptopShop
+    public class LaptopShop
     {
         static void Main(string[] args)
         {

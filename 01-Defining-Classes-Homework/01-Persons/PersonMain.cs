@@ -2,7 +2,7 @@
 
 namespace _01_Defining_Classes_Homework
 {
-    class PersonMain
+    public class PersonMain
     {
         static void Main(string[] args)
         {

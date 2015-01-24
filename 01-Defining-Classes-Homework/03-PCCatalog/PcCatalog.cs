@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace _03_PCCatalog
 {
-    class PcCatalog
+    public class PcCatalog
     {
         static void Main()
         {

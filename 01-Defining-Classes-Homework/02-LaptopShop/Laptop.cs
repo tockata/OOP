@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 
 namespace _02_LaptopShop
 {
-    class Laptop
+    public class Laptop
     {
         private string model;
         private string manufacturer;

@@ -2,7 +2,7 @@
 
 namespace _02_LaptopShop
 {
-    class Battery
+    public class Battery
     {
         private string batteryType;
         private int mAh;

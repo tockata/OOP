@@ -2,7 +2,7 @@
 
 namespace _03_PCCatalog
 {
-    class Component
+    public class Component
     {
         private string name;
         private string details;

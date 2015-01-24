@@ -2,7 +2,7 @@
 
 namespace _01_Defining_Classes_Homework
 {
-    class Person
+    public class Person
     {
         private string name;
         private int age;
