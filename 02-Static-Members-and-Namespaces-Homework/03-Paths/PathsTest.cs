@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _01_Point3D;
+using System;
 using System.Collections.Generic;
 
 namespace _03_Paths

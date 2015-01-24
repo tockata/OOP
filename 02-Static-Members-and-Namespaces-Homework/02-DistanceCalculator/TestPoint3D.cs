@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _01_Point3D;
+using System;
 
 namespace _02_DistanceCalculator
 {
