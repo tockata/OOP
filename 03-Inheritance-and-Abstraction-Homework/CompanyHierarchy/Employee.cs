@@ -4,11 +4,11 @@ using CompanyHierarchy.Interfaces;
 
 namespace CompanyHierarchy
 {
-    public class Employee : Person, IEmployee
+    public abstract class Employee : Person, IEmployee
     {
         private decimal salary;
 
-        public Employee(int id, string firstName, string lastName, decimal salary, Department department) 
+        protected Employee(int id, string firstName, string lastName, decimal salary, Department department) 
             : base(id, firstName, lastName)
         {
             this.Salary = salary;

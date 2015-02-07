@@ -32,7 +32,7 @@ namespace School
             string teacher = base.ToString() + "Teaching disciplines:\n";
             foreach (var discipline in this.Disciplines)
             {
-                teacher += discipline.Name;
+                teacher += discipline.Name + " ";
             }
 
             return teacher;

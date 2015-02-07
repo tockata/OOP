@@ -46,7 +46,7 @@ namespace Animals
         public string Gender
         {
             get { return this.gender; }
-            set
+            private set
             {
                 if (value == "male" || value == "female")
                 {

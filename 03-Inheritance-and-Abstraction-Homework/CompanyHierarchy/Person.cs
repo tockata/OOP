@@ -3,13 +3,13 @@ using CompanyHierarchy.Interfaces;
 
 namespace CompanyHierarchy
 {
-    public class Person : IPerson
+    public abstract class Person : IPerson
     {
         private int id;
         private string firstName;
         private string lastName;
 
-        public Person(int id, string firstName, string lastName)
+        protected Person(int id, string firstName, string lastName)
         {
             this.Id = id;
             this.FirstName = firstName;
